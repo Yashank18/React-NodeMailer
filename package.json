@@ -1,0 +1,30 @@
+{
+  "name": "nodemailerreact",
+  "version": "1.0.0",
+  "description": "server setup",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "server":"nodemon index.js",
+    "client":"npm start --prefix nodemailer-react",
+    "dev":"concurrently \"npm run server\" \" npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashank18/React-NodeMailer.git"
+  },
+  "author": "Yashank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yashank18/React-NodeMailer/issues"
+  },
+  "homepage": "https://github.com/Yashank18/React-NodeMailer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7"
+  }
+}

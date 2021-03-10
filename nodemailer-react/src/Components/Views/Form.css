@@ -1,0 +1,45 @@
+.FormContainer{
+    margin-top: 200px;
+    background-color: #ffffff;
+    width: 500px;
+    align-self: center;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+input{
+    height: 35px;
+    font-size: 15px;
+    margin: 1.2em 0em;
+    border-radius: 8px;
+    width: 400px;
+    border: 1px solid #e8f0fd;
+    outline: none;
+    padding-left: 10px;
+}
+input:focus{
+    border: 1px solid #1e86ff;
+}
+::placeholder{
+    color: #bcc4d3;
+    font-weight: 300;
+}
+.textAreaa{
+    height: 100px;
+    font-size: 15px;
+    margin: 1.2em 0em;
+    border-radius: 8px;
+    width:400px;
+    border: 1px solid #e8f0fd;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.textAreaa:focus{
+    border: 1px solid #1e86ff;
+}
+.btn{
+    background-color: greenyellow;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+}
